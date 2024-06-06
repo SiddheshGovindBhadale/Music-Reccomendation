@@ -1,0 +1,13 @@
+Step 1 - Go into Music folder and open env file and update IP address
+
+Step 2 - 
+	open cmd in music folder and enter "npm start" command.
+	open another cmd in music folder and enter "npm run android".
+
+Step3 - 
+	opend cmd in backend folder and enter "npm start" command
+
+Step 4 - 
+	open cmd in FastApi folder and enter following commands
+	"pipenv shell"
+	"uvicorn main:app  --reload --host 0.0.0.0 --port 8000"
